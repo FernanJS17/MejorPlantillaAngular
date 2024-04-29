@@ -1738,6 +1738,8 @@ CREATE TABLE Pro.tbCursosImpartidos(
 	CurIm_Id INT IDENTITY(1,1) NOT NULL,
 	CurIm_Descripcion VARCHAR (60) NOT NULL,
 	Curso_Id INT,
+
+
 	CurIm_UsuarioCreacion int NOT NULL,
 	CurIm_FechaCreacion datetime NOT NULL,
 	CurIm_UsuarioModificacion int NULL,
